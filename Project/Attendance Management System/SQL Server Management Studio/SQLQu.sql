@@ -1,0 +1,1 @@
+update Class_Table  set "Class_Name" = "ICT" where Class_ID= 

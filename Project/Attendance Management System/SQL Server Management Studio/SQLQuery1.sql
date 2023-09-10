@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Student_Table drop CONSTRAINT Student_Table_FK;
