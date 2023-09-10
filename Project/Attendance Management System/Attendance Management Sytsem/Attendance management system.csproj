@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98E81264-4C00-4B60-93B3-476427561C28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Attendance_management_system</RootNamespace>
+    <AssemblyName>Attendance management system</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Attendance">
+      <HintPath>..\..\..\..\Desktop\icons\Attendance.dll</HintPath>
+    </Reference>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance_MGSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attendance_MGSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance_MGSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Attendance_MGSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Attendance\Attendance.Attendance.cs" />
+    <Compile Include="pal\Forms\FormForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pal\Forms\FormForgotPassword.Designer.cs">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Forms\formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pal\Forms\formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pal\Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Reports\ClassReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pal\Reports\ClassReports.Designer.cs">
+      <DependentUpon>ClassReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Reports\ClassReportview.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassReportview.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="pal\Reports\MonthlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pal\Reports\MonthlyReport.Designer.cs">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\Reports\MonthlyReportview.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonthlyReportview.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAttendance.Designer.cs">
+      <DependentUpon>UserControlAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlRegister.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlRegister.Designer.cs">
+      <DependentUpon>UserControlRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAddClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAddClass.Designer.cs">
+      <DependentUpon>UserControlAddClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAddStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlAddStudents.Designer.cs">
+      <DependentUpon>UserControlAddStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlDashboard.Designer.cs">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlreport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pal\UserControlForms\UserControlreport.Designer.cs">
+      <DependentUpon>UserControlreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="pal\Forms\FormForgotPassword.resx">
+      <DependentUpon>FormForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\Forms\formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\Reports\ClassReports.resx">
+      <DependentUpon>ClassReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="pal\Reports\ClassReportview.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassReportview.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="pal\Reports\MonthlyReport.resx">
+      <DependentUpon>MonthlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="pal\Reports\MonthlyReportview.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MonthlyReportview.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlAttendance.resx">
+      <DependentUpon>UserControlAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlRegister.resx">
+      <DependentUpon>UserControlRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlAddClass.resx">
+      <DependentUpon>UserControlAddClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlAddStudents.resx">
+      <DependentUpon>UserControlAddStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlDashboard.resx">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pal\UserControlForms\UserControlreport.resx">
+      <DependentUpon>UserControlreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Attendance_MGSDataSet.xsc">
+      <DependentUpon>Attendance_MGSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Attendance_MGSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Attendance_MGSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Attendance_MGSDataSet.xss">
+      <DependentUpon>Attendance_MGSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Attendance_MGSDataSet1.xsc">
+      <DependentUpon>Attendance_MGSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Attendance_MGSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Attendance_MGSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Attendance_MGSDataSet1.xss">
+      <DependentUpon>Attendance_MGSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001-closed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-minimize-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduate-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
