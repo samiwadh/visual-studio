@@ -1,0 +1,90 @@
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\Attendance management system.exe.config
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\Attendance management system.exe
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\Attendance management system.pdb
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.formLogin.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.Properties.Resources.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.GenerateResource.cache
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.CoreCompileInputs.cache
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.exe
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.pdb
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\Attendance.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.CopyComplete
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.FormForgotPassword.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.FormMain.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlDashboard.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAddClass.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAddStudents.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlRegister.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAttendance.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlreport.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\stdole.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Reports.ClassReports.resources
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.AssemblyReference.cache
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\ClassReportview.rpt
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\ClassReportview.cs
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\pal\Reports\StudentReportview.rpt
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\bin\Debug\pal\Reports\StudentReportview.cs
+C:\Users\NTech\source\repos\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Reports.StudentReport.resources
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\Attendance management system.exe.config
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\Attendance management system.exe
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\Attendance management system.pdb
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\AxShockwaveFlashObjects.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.Shared.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\ShockwaveFlashObjects.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\stdole.dll
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.AssemblyReference.cache
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.SuggestedBindingRedirects.cache
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.FormForgotPassword.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.formLogin.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Forms.FormMain.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAttendance.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlRegister.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAddClass.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlAddStudents.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlDashboard.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.UserControlForms.UserControlreport.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.Properties.Resources.resources
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.GenerateResource.cache
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.CoreCompileInputs.cache
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.csproj.CopyComplete
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.exe
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance management system.pdb
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Reports.ClassReports.resources
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\pal\Reports\ClassReportview.rpt
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\pal\Reports\ClassReportview.cs
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\pal\Reports\MonthlyReportview.rpt
+E:\rameez\Attendance management system\Attendance management system\bin\Debug\pal\Reports\MonthlyReportview.cs
+E:\rameez\Attendance management system\Attendance management system\obj\Debug\Attendance_management_system.pal.Reports.MonthlyReport.resources
